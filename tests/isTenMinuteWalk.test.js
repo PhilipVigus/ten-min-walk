@@ -8,4 +8,8 @@ describe("isTenMinuteWalk", () => {
   it("returns false for e, e", () => {
     expect(isTenMinuteWalk(["e", "e"])).toBe(false);
   });
+
+  it("returns true for n, n", () => {
+    expect(isTenMinuteWalk(["n", "n"])).toBe(false);
+  });
 });
